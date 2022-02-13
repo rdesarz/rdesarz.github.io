@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hi! I'm Romain Desarzens.</title>
+    <description>I'm a software engineer specialized in robotics with an interest in machine learning. I currently work on motion planning and control algorithms at Navya.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 13 Feb 2022 23:29:28 +0100</pubDate>
+    <lastBuildDate>Sun, 13 Feb 2022 23:29:28 +0100</lastBuildDate>
+    <generator>Jekyll v3.9.1</generator>
+    
+      <item>
+        <title>NavyaDrive - Driving module</title>
+        <description>
+</description>
+        <pubDate>Tue, 01 Feb 2022 16:56:00 +0100</pubDate>
+        <link>http://localhost:4000/av/c++/2022/02/01/navya-drive.html</link>
+        <guid isPermaLink="true">http://localhost:4000/av/c++/2022/02/01/navya-drive.html</guid>
+        
+        <category>AV</category>
+        
+        <category>Robotics</category>
+        
+        <category>Control</category>
+        
+        
+        <category>av</category>
+        
+        <category>c++</category>
+        
+      </item>
+    
+      <item>
+        <title>Python RRT*</title>
+        <description>
+</description>
+        <pubDate>Thu, 20 Jan 2022 16:56:00 +0100</pubDate>
+        <link>http://localhost:4000/development/design/2022/01/20/python-rrt-star.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/design/2022/01/20/python-rrt-star.html</guid>
+        
+        <category>Python</category>
+        
+        <category>Motion</category>
+        
+        <category>Planning</category>
+        
+        <category>Robotics</category>
+        
+        <category>RRT</category>
+        
+        
+        <category>development</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Motlib</title>
+        <description>
+</description>
+        <pubDate>Sat, 01 Jan 2022 15:15:00 +0100</pubDate>
+        <link>http://localhost:4000/development/2022/01/01/motlib.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/2022/01/01/motlib.html</guid>
+        
+        <category>C++</category>
+        
+        <category>Tracking</category>
+        
+        <category>Robotics</category>
+        
+        <category>ROS</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Rust HTTP server</title>
+        <description>
+</description>
+        <pubDate>Thu, 20 Feb 2020 22:15:00 +0100</pubDate>
+        <link>http://localhost:4000/poc/design/2020/02/20/rust-http-server.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poc/design/2020/02/20/rust-http-server.html</guid>
+        
+        <category>Rust</category>
+        
+        <category>Server</category>
+        
+        
+        <category>poc</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>emuchip8</title>
+        <description>
+</description>
+        <pubDate>Mon, 20 Jan 2020 16:56:00 +0100</pubDate>
+        <link>http://localhost:4000/emulator/c++/2020/01/20/emuchip8.html</link>
+        <guid isPermaLink="true">http://localhost:4000/emulator/c++/2020/01/20/emuchip8.html</guid>
+        
+        <category>C++</category>
+        
+        <category>Emulation</category>
+        
+        <category>SDL</category>
+        
+        
+        <category>emulator</category>
+        
+        <category>c++</category>
+        
+      </item>
+    
+  </channel>
+</rss>

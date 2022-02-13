@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Hi! I'm Romain Desarzens.</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2022-02-13T23:29:28+01:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Romain Desarzens</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>NavyaDrive - Driving module</title>
+   <link href="http://localhost:4000/av/c++/2022/02/01/navya-drive.html"/>
+   <updated>2022-02-01T16:56:00+01:00</updated>
+   <id>http://localhost:4000/av/c++/2022/02/01/navya-drive</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Python RRT*</title>
+   <link href="http://localhost:4000/development/design/2022/01/20/python-rrt-star.html"/>
+   <updated>2022-01-20T16:56:00+01:00</updated>
+   <id>http://localhost:4000/development/design/2022/01/20/python-rrt-star</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Motlib</title>
+   <link href="http://localhost:4000/development/2022/01/01/motlib.html"/>
+   <updated>2022-01-01T15:15:00+01:00</updated>
+   <id>http://localhost:4000/development/2022/01/01/motlib</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rust HTTP server</title>
+   <link href="http://localhost:4000/poc/design/2020/02/20/rust-http-server.html"/>
+   <updated>2020-02-20T22:15:00+01:00</updated>
+   <id>http://localhost:4000/poc/design/2020/02/20/rust-http-server</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>emuchip8</title>
+   <link href="http://localhost:4000/emulator/c++/2020/01/20/emuchip8.html"/>
+   <updated>2020-01-20T16:56:00+01:00</updated>
+   <id>http://localhost:4000/emulator/c++/2020/01/20/emuchip8</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>
