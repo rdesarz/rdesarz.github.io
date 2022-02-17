@@ -4,7 +4,7 @@
  <title>Hi! I'm Romain Desarzens.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-02-13T23:37:31+01:00</updated>
+ <updated>2022-02-17T14:34:18+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Romain Desarzens</name>
@@ -40,19 +40,19 @@
  </entry>
  
  <entry>
-   <title>Rust HTTP server</title>
-   <link href="http://localhost:4000/poc/design/2020/02/20/rust-http-server.html"/>
-   <updated>2020-02-20T22:15:00+01:00</updated>
-   <id>http://localhost:4000/poc/design/2020/02/20/rust-http-server</id>
+   <title>emuchip8</title>
+   <link href="http://localhost:4000/emulator/c++/2020/02/20/emuchip8.html"/>
+   <updated>2020-02-20T16:56:00+01:00</updated>
+   <id>http://localhost:4000/emulator/c++/2020/02/20/emuchip8</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
-   <title>emuchip8</title>
-   <link href="http://localhost:4000/emulator/c++/2020/01/20/emuchip8.html"/>
-   <updated>2020-01-20T16:56:00+01:00</updated>
-   <id>http://localhost:4000/emulator/c++/2020/01/20/emuchip8</id>
+   <title>Rust HTTP server</title>
+   <link href="http://localhost:4000/poc/design/2020/01/20/rust-http-server.html"/>
+   <updated>2020-01-20T22:15:00+01:00</updated>
+   <id>http://localhost:4000/poc/design/2020/01/20/rust-http-server</id>
    <content type="html">
 </content>
  </entry>
