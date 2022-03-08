@@ -21,12 +21,17 @@ url: "https://rdesarz.github.io/" # the base hostname & protocol for your site, 
 twitter_username: 'rdesarz'
 github_username: 'rdesarz'
 linkedin_username: 'rdesarz'
+author: 'Romain Desarzens'
+twitter:
+  username: rdesarz
 
+  
 # Build settings
 markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
