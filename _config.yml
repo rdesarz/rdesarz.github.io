@@ -25,7 +25,11 @@ author: 'Romain Desarzens'
 twitter:
   username: rdesarz
 
-  
+author:
+  name: Romain Desarzens
+  url: https://rdesarz.github.io/
+
+
 # Build settings
 markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
