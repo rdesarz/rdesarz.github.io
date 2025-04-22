@@ -1,35 +1,17 @@
 title: Romain Desarzens
 description: >-
   Senior Robotics Engineer | Motion Planning & Control | ROS, C++, Python, Rust
-baseurl: "" # Do not change for user.github.io sites
+baseurl: ""
 url: "https://rdesarz.github.io"
 
-# Build settings
 markdown: kramdown
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Navigation (optional if you're using custom includes instead of minima nav)
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Projects"
-    url: "/projects/"
-
-# Exclude things you don't want in your site output
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
-
-# SEO & social (optional)
-author:
-  name: Romain Desarzens
-  email: your@email.com
-social:
-  github: rdesarz
-  linkedin: your-linkedin-handle
