@@ -2,13 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} | Romain Desarzens</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Romain Desarzens - Robotics Engineer | Motion Planning & Control | ROS, C++, Python, Rust">
   <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/assets/favicon.ico">
+  {% seo %}
 </head>
 <body>
+
   {% include header.html %}
+
   <main>
     {{ content }}
   </main>
+
+  <footer style="text-align: center; font-size: 0.9rem; color: #666; margin: 2rem 0;">
+    &copy; {{ site.time | date: "%Y" }} Romain Desarzens — Powered by Jekyll
+  </footer>
+
 </body>
 </html>
