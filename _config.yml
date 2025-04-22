@@ -18,7 +18,6 @@ email: 'rdsrz.pro@protonmail.com'
 description: "I'm a software engineer specialized in robotics with an interest in machine learning. I currently work on motion planning and control algorithms at iFollow."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rdesarz.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: 'rdesarz'
 github_username: 'rdesarz'
 linkedin_username: 'rdesarz'
 author: 'Romain Desarzens'
@@ -101,7 +100,7 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2022 Romain Desarzens'
+footer_text: '© 2025 Romain Desarzens'
 admin_name: 'Romain Desarzens'
 enable_contact: false
 
@@ -109,4 +108,4 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
+  - { url: '/about', text: 'About Me' }
