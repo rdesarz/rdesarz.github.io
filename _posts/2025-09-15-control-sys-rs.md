@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: 'control-sys.rs'
 date: 2025-09-15 21:15:00
 categories: poc design
