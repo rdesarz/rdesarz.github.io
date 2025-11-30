@@ -102,7 +102,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # add this file or change path
   bio              : "Robotics software engineer focused on control, locomotion, and autonomous mobile robots."
   location         : "Paris, France"
-  email            :
+  email            : "rdsrz.pro@protonmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
