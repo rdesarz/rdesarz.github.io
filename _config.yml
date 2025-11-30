@@ -246,15 +246,17 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 # Defaults
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: projects
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments:
+      author_profile: false
       share: true
-      related: true
