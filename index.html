@@ -1,18 +1,47 @@
 ---
-layout: archive
+layout: single
 author_profile: true
-entries_layout: list
+classes: wide
 ---
 
-<p class="page__lead">Hi, I'm Romain, a robotics software engineer passionate about bringing robots to life through intelligent control systems and autonomous behaviors.</p>
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 4em 2em; margin: -2em -2em 3em -2em; border-radius: 8px; text-align: center;">
+  <h1 style="color: white; margin-bottom: 0.5em; font-size: 2.5em;">Hi, I'm Romain</h1>
+  <p style="font-size: 1.3em; max-width: 800px; margin: 0 auto; opacity: 0.95;">A robotics software engineer passionate about bringing robots to life through intelligent control systems and autonomous behaviors.</p>
+</div>
 
-<p>I specialize in <strong>biped locomotion</strong>, <strong>motion planning</strong>, and <strong>real-time control algorithms</strong>. My work spans the full stack from mathematical modeling and optimal control theory to practical implementation in C++, Python, and Rust. Whether it's generating stable walking gaits for humanoid robots or designing path planning algorithms for autonomous systems, I focus on bridging the gap between theory and real-world robotics applications.</p>
+<div style="max-width: 900px; margin: 0 auto;">
+  <p style="font-size: 1.1em; line-height: 1.8; margin-bottom: 2.5em; text-align: center;">
+    I specialize in <strong>biped locomotion</strong>, <strong>motion planning</strong>, and <strong>real-time control algorithms</strong>. My work bridges mathematical theory and practical robotics implementation using C++, Python, and Rust.
+  </p>
 
-<p>Below are some of my projects exploring control systems, computer vision, and embedded systems for robotics.</p>
+  <h2 style="text-align: center; margin: 3em 0 2em 0; font-size: 2em;">Featured Projects</h2>
 
-<h3 class="archive__subtitle">Featured Projects</h3>
-
-{% assign projects = site.projects | sort: 'date' | reverse %}
-<div class="entries-list">
-  {% include documents-collection.html entries=projects type='list' %}
+  {% assign projects = site.projects | sort: 'date' | reverse %}
+  {% for project in projects %}
+  <div style="margin-bottom: 3em; padding: 2em; border: 1px solid #e9ecef; border-radius: 8px; transition: box-shadow 0.3s;">
+    <div style="display: flex; gap: 2em; align-items: center;">
+      {% if project.header.teaser %}
+      <div style="flex: 0 0 250px;">
+        <a href="{{ project.url | relative_url }}">
+          <img src="{{ project.header.teaser | relative_url }}" alt="{{ project.title }}" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        </a>
+      </div>
+      {% endif %}
+      <div style="flex: 1;">
+        <h3 style="margin-top: 0; margin-bottom: 0.5em;">
+          <a href="{{ project.url | relative_url }}" style="text-decoration: none;">{{ project.title }}</a>
+        </h3>
+        <p style="color: #6c757d; margin-bottom: 1em;">{{ project.excerpt }}</p>
+        {% if project.tags %}
+        <div style="margin-bottom: 1em;">
+          {% for tag in project.tags %}
+          <span style="background: #e9ecef; padding: 0.3em 0.8em; border-radius: 15px; font-size: 0.85em; margin-right: 0.5em; display: inline-block; margin-bottom: 0.5em;">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <a href="{{ project.url | relative_url }}" class="btn btn--primary">View Project →</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
 </div>
