@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: "Projects"
-collection: projectss
+collection: projects
 permalink: /projects/
 author_profile: true
 entries_layout: list
