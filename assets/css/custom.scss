@@ -1,0 +1,15 @@
+---
+---
+
+@charset "utf-8";
+
+/* Custom font overrides */
+
+/* Change the main body font */
+$global-font-family: $neo-grotesque; // Modern sans-serif (Inter, Roboto, Helvetica Neue)
+
+/* Change the heading font */
+$header-font-family: $geometric-humanist; // Avenir, Montserrat, Corbel
+
+/* Import the main theme */
+@import "minimal-mistakes";
