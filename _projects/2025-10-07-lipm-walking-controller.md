@@ -9,7 +9,9 @@ header:
 
 Open-source implementation of **Linear Inverted Pendulum Model (LIPM)** walking pattern generator based on **preview control of the Zero-Moment Point (ZMP)**, following the formulation by _Kajita et al., "Biped Walking Pattern Generation by Using Preview Control of the Zero-Moment Point," ICRA 2003_.
 
-![](/assets/images/biped-walking-controller.gif)
+<p align="center">
+  <img src="/assets/images/biped-walking-controller.gif" alt="Walking controller simulation" />
+</p>
 
 [View on GitHub](https://github.com/rdesarz/biped-walking-controller){: .btn .btn--primary}
 [Documentation](https://rdesarz.github.io/biped-walking-controller/){: .btn .btn--info}
