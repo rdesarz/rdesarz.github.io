@@ -1,20 +1,37 @@
 ---
 title: "Biped Walking Controller"
 excerpt: "LIPM + ZMP preview control with IK/QP and PyBullet simulation."
+date: 2025-10-07
+tags: [C++, Control Theory, Robotics, Simulation]
 header:
   teaser: /assets/images/biped-walking-controller.gif
 ---
 
-This repository presents an open-source implementation of the **Linear Inverted Pendulum Model (LIPM)** walking pattern 
-generator based on **preview control of the Zero-Moment Point (ZMP)**, following the formulation introduced 
-by _Kajita et al., “Biped Walking Pattern Generation by Using Preview Control of the Zero-Moment Point,” ICRA 2003_.
+Open-source implementation of **Linear Inverted Pendulum Model (LIPM)** walking pattern generator based on **preview control of the Zero-Moment Point (ZMP)**, following the formulation by _Kajita et al., "Biped Walking Pattern Generation by Using Preview Control of the Zero-Moment Point," ICRA 2003_.
 
-The animation below shows the controller in action in a Pybullet simulation:
+![](/assets/images/biped-walking-controller.gif)
 
-<p align="center">
-  <img src="assets/images/biped-walking-controller.gif" />
-</p>
+[View on GitHub](https://github.com/rdesarz/biped-walking-controller){: .btn .btn--primary}
+[Documentation](https://rdesarz.github.io/biped-walking-controller/){: .btn .btn--info}
 
+---
+
+## Key Features
+
+- **Preview Control**: Optimal ZMP trajectory tracking with anticipation of future reference changes
+- **LIPM Dynamics**: Discrete-time Linear Inverted Pendulum Model implementation
+- **Inverse Kinematics**: Full-body IK solver using quadratic programming
+- **Swing Foot Trajectory**: Sinusoidal time-law based trajectory generation
+- **PyBullet Simulation**: Real-time 3D visualization and testing environment
+- **Configurable Parameters**: Adjustable step length, height, timing, and control gains
+
+## Technologies Used
+
+- **C++17** - Core controller implementation
+- **Eigen** - Linear algebra and matrix operations
+- **Python** - Simulation and visualization
+- **PyBullet** - Physics simulation
+- **CMake** - Build system
 
 ---
 

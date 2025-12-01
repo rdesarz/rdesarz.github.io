@@ -6,7 +6,7 @@ locale                   : "en-US"
 rtl                      :
 title                    : "Romain Desarzens"
 title_separator          : "-"
-subtitle                 : "Robotics · Control · Automous Systems"
+subtitle                 : "Robotics · Control · Autonomous Systems"
 name                     : "Romain Desarzens"
 description              : "Robotics software engineer working on control, and autonomous systems."
 url                      : "https://rdesarz.github.io" # change if you use another domain
