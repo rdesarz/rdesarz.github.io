@@ -1,5 +1,5 @@
 # Theme Settings
-minimal_mistakes_skin    : "dark"
+minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
@@ -12,7 +12,7 @@ description              : "Robotics software engineer working on control, and a
 url                      : "https://rdesarz.github.io" # change if you use another domain
 baseurl                  : "" # e.g. "/blog" if this is a subfolder site
 repository               : "rdesarz/rdesarz.github.io" # change if repo is different
-teaser                   :
+teaser                   : 
 logo                     :
 masthead_title           :
 breadcrumbs              : true
