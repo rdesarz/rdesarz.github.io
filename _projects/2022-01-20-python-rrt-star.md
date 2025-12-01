@@ -2,5 +2,5 @@
 title: 'Python RRT*'
 excerpt: "Python implementation of the RRT* motion planning algorithm."
 header:
-  teaser: /assets/images/biped-walking-controller.gif
+  teaser: /assets/images/02-python-rrt-star.png
 ---
