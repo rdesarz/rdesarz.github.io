@@ -1,7 +1,7 @@
 ---
 layout: archive
 author_profile: true
-entries_layout: grid
+entries_layout: list
 ---
 
 <p class="page__lead">Robotics software engineer specializing in locomotion control, 
@@ -9,3 +9,8 @@ motion planning, and autonomous systems. Experienced in C++, Python, and Rust wi
 a focus on real-time control algorithms and simulation.</p>
 
 <h3 class="archive__subtitle">Featured Projects</h3>
+
+{% assign projects = site.projects | sort: 'date' | reverse %}
+<div class="entries-list">
+  {% include documents-collection.html entries=projects type='list' %}
+</div>
