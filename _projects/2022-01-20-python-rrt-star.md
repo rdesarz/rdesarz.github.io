@@ -9,7 +9,7 @@ header:
 
 Python implementation of the RRT* (Rapidly-exploring Random Tree Star) algorithm for optimal path planning in 2D environments with obstacles.
 
-[View on GitHub](https://github.com/rdesarz/python-rrt-star){: .btn .btn--primary}
+[View on GitHub](https://github.com/rdesarz/rrtstar){: .btn .btn--primary}
 
 ## Features
 
