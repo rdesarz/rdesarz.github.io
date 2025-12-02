@@ -1,5 +1,5 @@
 # Theme Settings
-minimal_mistakes_skin    : "dark"
+minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
