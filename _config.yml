@@ -12,7 +12,7 @@ description              : "Robotics software engineer working on control, and a
 url                      : "https://rdesarz.github.io" # change if you use another domain
 baseurl                  : "" # e.g. "/blog" if this is a subfolder site
 repository               : "rdesarz/rdesarz.github.io" # change if repo is different
-teaser                   : "/assets/images/bio-photo.jpg"
+teaser                   : 
 logo                     :
 masthead_title           :
 breadcrumbs              : true
@@ -81,7 +81,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :
+og_image                 : 
 social:
   type                   : Person
   name                   : "Romain Desarzens"
