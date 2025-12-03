@@ -66,3 +66,11 @@ I'm interested in challenging robotics problems, especially in:
 🐙 **GitHub**: [github.com/rdesarz](https://github.com/rdesarz)
 
 ---
+
+## Beyond Robotics 🎭🎹🏃
+
+Outside of building robots, I explore different forms of expression and challenge. I take **acting classes** to sharpen communication and storytelling skills (surprisingly valuable for technical presentations), play **piano** to maintain creative balance, and run regularly through Paris to stay energized and clear-minded.
+
+These pursuits teach complementary skills—discipline, pattern recognition, perseverance, and iterative improvement—that translate directly to solving complex robotics problems.
+
+---
