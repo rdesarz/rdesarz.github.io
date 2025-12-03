@@ -6,34 +6,28 @@ classes: wide
 
 <style>
   .hero-section {
-    padding: 2em 1em;
-    margin: -1em -1em 1em -1em;
+    padding: 1.5em 1em 1em 1em;
+    margin: -1em -1em 0.5em -1em;
     text-align: center;
   }
   .hero-section h1 {
-    margin-bottom: 0.5em;
-    font-size: 2em;
+    margin-bottom: 0.3em;
+    font-size: 1.8em;
   }
   .hero-section p {
-    font-size: 1.1em;
-    max-width: 800px;
+    font-size: 1em;
+    max-width: 700px;
     margin: 0 auto;
     color: #494e52;
-  }
-  .intro-text {
-    font-size: 1.05em;
-    line-height: 1.8;
-    margin-bottom: 2em;
-    text-align: center;
-    padding: 0 1em;
+    line-height: 1.5;
   }
   .projects-heading {
     text-align: center;
-    margin: 2em 0 1.5em 0;
-    font-size: 1.8em;
+    margin: 1.5em 0 1em 0;
+    font-size: 1.6em;
   }
   .project-card {
-    margin-bottom: 2em;
+    margin-bottom: 1.8em;
     padding: 1.5em;
     border: 1px solid #e9ecef;
     border-radius: 8px;
@@ -79,22 +73,18 @@ classes: wide
   /* Mobile responsive styles */
   @media (max-width: 768px) {
     .hero-section {
-      padding: 1.5em 1em;
-      margin: -0.5em -0.5em 1.5em -0.5em;
+      padding: 1.2em 1em 0.8em 1em;
+      margin: -0.5em -0.5em 1em -0.5em;
     }
     .hero-section h1 {
-      font-size: 1.5em;
+      font-size: 1.4em;
     }
     .hero-section p {
-      font-size: 1em;
-    }
-    .intro-text {
       font-size: 0.95em;
-      margin-bottom: 1.5em;
     }
     .projects-heading {
-      font-size: 1.5em;
-      margin: 1.5em 0 1em 0;
+      font-size: 1.4em;
+      margin: 1.2em 0 0.8em 0;
     }
     .project-card {
       padding: 1em;
@@ -112,15 +102,11 @@ classes: wide
 </style>
 
 <div class="hero-section">
-  <h1>Hi, I'm Romain</h1>
-  <p>A robotics software engineer passionate about bringing robots to life through intelligent control systems and autonomous behaviors.</p>
+  <h1>Romain Desarzens</h1>
+  <p>Robotics software engineer specializing in motion planning, control systems, and autonomous navigation. From warehouse AMRs to biped locomotion—building production robotics systems with C++, Python, and Rust.</p>
 </div>
 
 <div style="max-width: 900px; margin: 0 auto;">
-  <p class="intro-text">
-    I specialize in <strong>biped locomotion</strong>, <strong>motion planning</strong>, and <strong>real-time control algorithms</strong>. My work bridges mathematical theory and practical robotics implementation using C++, Python, and Rust.
-  </p>
-
   <h2 class="projects-heading">Featured Projects</h2>
 
   {% assign projects = site.projects | where: "featured", true | sort: 'date' | reverse %}
