@@ -8,18 +8,12 @@ classes: wide
 
 <style>
   .projects-intro {
-    text-align: center;
-    margin-bottom: 3em;
-    padding: 2em 1em;
-  }
-  .projects-intro h1 {
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
   }
   .projects-intro p {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #6c757d;
-    max-width: 700px;
-    margin: 0 auto;
+    line-height: 1.6;
   }
   .project-card {
     margin-bottom: 2em;
@@ -68,11 +62,7 @@ classes: wide
   /* Mobile responsive styles */
   @media (max-width: 768px) {
     .projects-intro {
-      padding: 1.5em 1em;
-      margin-bottom: 2em;
-    }
-    .projects-intro p {
-      font-size: 1em;
+      margin-bottom: 1.5em;
     }
     .project-card {
       padding: 1em;
@@ -93,33 +83,31 @@ classes: wide
   <p>A collection of my work in robotics, control systems, and autonomous systems—from biped locomotion and motion planning to production autonomous vehicle deployments.</p>
 </div>
 
-<div style="max-width: 900px; margin: 0 auto;">
-  {% assign projects = site.projects | sort: 'date' | reverse %}
-  {% for project in projects %}
-  <div class="project-card">
-    <div class="project-content">
-      {% if project.header.teaser %}
-      <div class="project-image">
-        <a href="{{ project.url | relative_url }}">
-          <img src="{{ project.header.teaser | relative_url }}" alt="{{ project.title }}">
-        </a>
+{% assign projects = site.projects | sort: 'date' | reverse %}
+{% for project in projects %}
+<div class="project-card">
+  <div class="project-content">
+    {% if project.header.teaser %}
+    <div class="project-image">
+      <a href="{{ project.url | relative_url }}">
+        <img src="{{ project.header.teaser | relative_url }}" alt="{{ project.title }}">
+      </a>
+    </div>
+    {% endif %}
+    <div class="project-body">
+      <h3>
+        <a href="{{ project.url | relative_url }}" style="text-decoration: none;">{{ project.title }}</a>
+      </h3>
+      <p class="project-excerpt">{{ project.excerpt }}</p>
+      {% if project.tags %}
+      <div class="tag-list">
+        {% for tag in project.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
       </div>
       {% endif %}
-      <div class="project-body">
-        <h3>
-          <a href="{{ project.url | relative_url }}" style="text-decoration: none;">{{ project.title }}</a>
-        </h3>
-        <p class="project-excerpt">{{ project.excerpt }}</p>
-        {% if project.tags %}
-        <div class="tag-list">
-          {% for tag in project.tags %}
-          <span class="tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
-        <a href="{{ project.url | relative_url }}" class="btn btn--primary">View Project →</a>
-      </div>
+      <a href="{{ project.url | relative_url }}" class="btn btn--primary">View Project →</a>
     </div>
   </div>
-  {% endfor %}
 </div>
+{% endfor %}
