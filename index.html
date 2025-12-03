@@ -123,7 +123,7 @@ classes: wide
 
   <h2 class="projects-heading">Featured Projects</h2>
 
-  {% assign projects = site.projects | sort: 'date' | reverse %}
+  {% assign projects = site.projects | where: "featured", true | sort: 'date' | reverse %}
   {% for project in projects %}
   <div class="project-card">
     <div class="project-content">
@@ -151,4 +151,9 @@ classes: wide
     </div>
   </div>
   {% endfor %}
+
+  <div style="text-align: center; margin-top: 3em; padding-top: 2em; border-top: 1px solid #e9ecef;">
+    <p style="margin-bottom: 1em; color: #6c757d;">Interested in more of my work?</p>
+    <a href="/projects/" class="btn btn--info btn--large">View All Projects →</a>
+  </div>
 </div>

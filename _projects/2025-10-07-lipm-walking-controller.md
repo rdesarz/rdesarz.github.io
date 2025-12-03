@@ -2,6 +2,7 @@
 title: "Biped Walking Controller"
 excerpt: "LIPM + ZMP preview control with IK/QP and PyBullet simulation."
 date: 2025-10-07
+featured: true
 tags: [C++, Control Theory, Robotics, Simulation]
 header:
   teaser: /assets/images/biped-walking-controller.gif

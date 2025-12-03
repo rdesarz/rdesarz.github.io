@@ -2,6 +2,7 @@
 title: "Movu iFollow - Autonomous Warehouse Robot"
 excerpt: "Full-stack robotics development for autonomous logistics robots in warehouse environments."
 date: 2024-10-07
+featured: true
 tags: [C++, ROS2, Motion Planning, MPC, Localization, Fleet Management]
 header:
   teaser: /assets/images/movu-ifollow.png
