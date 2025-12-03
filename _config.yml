@@ -100,7 +100,7 @@ analytics:
 author:
   name             : "Romain Desarzens"
   avatar           : "/assets/images/bio-photo.jpg" # add this file or change path
-  bio              : "Robotics software engineer focused on control, locomotion, and autonomous mobile robots."
+  bio              : "Building autonomous robots from theory to production • Motion planning • Control systems • C++, Python, Rust"
   location         : "Paris, France"
   email            : "rdsrz.pro@protonmail.com"
   links:
